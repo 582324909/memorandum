@@ -11,7 +11,12 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSString *dateStr;
+@property (strong, nonatomic) NSString *tomorrowStr;
+@property (strong, nonatomic) NSMutableArray *deleteArray;
+@property (strong, nonatomic) NSMutableArray *finishArray;
 
++ (instancetype)shareAppDelegate;
 
 @end
 

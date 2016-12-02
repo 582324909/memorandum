@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TodayTableViewController.h
 //  rili
 //
 //  Created by 张伟伟 on 2016/10/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TodayTableViewController : UITableViewController
 
 @end
-
